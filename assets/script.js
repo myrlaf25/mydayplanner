@@ -5,6 +5,8 @@ currentDay.textContent=time
 
 console.log(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
 
+
+
 for(let hour = 8; hour<=17; hour++){
     let index=hour-8;
 }
@@ -35,12 +37,9 @@ $(document).on('click','i', function(event) {
 })
 
 
-// if(planList !==null){
-//     planTextArray= planList;
-// }else {
-//     planTextArray=newArray(7);
-// planTextArray[4]= "Hello";
-// }
+if(planList !==null){
+    planTextArray= planList;
+}
 
 
 
