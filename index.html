@@ -14,11 +14,11 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Work Day Scheduler</title>
 </head>
 
-<body>
+  <body>
     <nav class="navbar">
         <div class="mainHeader">
             <h1 class="navbar-brand" href="#">Work Day Scheduler</h1>
@@ -26,145 +26,56 @@
             <p id="currentDay" class="lead"></p>
         </div>
     </nav>
-
     <div class="container">
-        <!-- Timeblocks go here -->
-        <ul>
+      <div class="row contentBlock" id="9">
+        <div id="hourBox" class="col-2 hour">9 AM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="10">
+        <div id="hourBox" class="col-2 hour">10 AM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="11">
+        <div id="hourBox" class="col-2 hour">11 AM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="12">
+        <div id="hourBox" class="col-2 hour">12 PM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="13">
+        <div id="hourBox" class="col-2 hour">1 PM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="14">
+        <div id="hourBox" class="col-2 hour">2 PM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="15">
+        <div id="hourBox" class="col-2 hour">3 PM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="16">
+        <div id="hourBox" class="col-2 hour">4 PM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+      <div class="row contentBlock" id="17">
+        <div id="hourBox" class="col-2 hour">5 PM</div>
+        <textarea class="col-8 dailyActivity"></textarea>
+        <button class="col-2 saveBtn fas fa-save saveIcon">Save</button>
+      </div>
+    </div>
 
-        <li>
-            <div class="rowPlanner" index-Time="8" style="background-color:#92967d;">
-            <div class="col-md-4">
-                <span class="timeSpace">8:00 am</span>
-            </div>
-            <div class="col-md-12">
-                <input id="input0" index-Time="0" type="text" class="dailyActivity">
-            </div>
-            <div class="col-md-2">
-            <i id="saveBtn" save-id="0" class="fas fa-save saveIcon" ></i>
-           </div>
-        </li>
-        <li>
-            <div class="rowPlanner" index-Time="9" style="background-color:#92967d;">
-                <div class="col-md-4">
-                    <span class="timeSpace">9:00 am</span>
-                </div>
-                <div class="col-md-12">
-                    <input id="input1" index-Time="1" type="text" class="dailyActivity">
-                </div>
-                <div class="col-md-2">
-                <i id="saveBtn" save-id="1" class="fas fa-save saveIcon" ></i>
-            </div>
-        </li>
-
-        <li>
-                <div class="rowPlanner" index-Time="10" style="background-color:#92967d;">
-                    <div class="col-md-4">
-                        <span class="timeSpace">10:00 am</span>
-                    </div>
-                    <div class="col-md-12">
-                        <input id="input2" index-Time="2" type="text" class="dailyActivity">
-                    </div>
-                    <div class="col-md-2">
-                    <i id="saveBtn" save-id="2" class="fas fa-save saveIcon" ></i>
-                </div>
-            </li>
-
-            <li>
-                    <div class="rowPlanner" index-Time="11" style="background-color:#92967d;">
-                        <div class="col-md-4">
-                            <span class="timeSpace">11:00 am</span>
-                        </div>
-                        <div class="col-md-12">
-                            <input id="input3" index-Time="3" type="text" class="dailyActivity">
-                        </div>
-                        <div class="col-md-2">
-                        <i id="saveBtn" save-id="3" class="fas fa-save saveIcon" ></i>
-                        </div>
-                </li>
-                <li>
-                        <div class="rowPlanner" index-Time="12" style="background-color:#92967d;">
-                            <div class="col-md-4">
-                                <span class="timeSpace">12:00 pm</span>
-                            </div>
-                            <div class="col-md-12">
-                                <input id="input4" index-Time="4" type="text" class="dailyActivity">
-                            </div>
-                            <div class="col-md-2">
-                            <i id="saveBtn" save-id="4" class="fas fa-save saveIcon" ></i>
-                                </div>
-                </li>
-                <li>
-                            <div class="rowPlanner" index-Time="13" style="background-color:#92967d;">
-                                <div class="col-md-4">
-                                    <span class="timeSpace">1:00 pm</span>
-                                </div>
-                                <div class="col-md-12">
-                                    <input id="input5" index-Time="5" type="text" class="dailyActivity">
-                                </div>
-                                <div class="col-md-2">
-                                <i id="saveBtn" save-id="5" class="fas fa-save saveIcon" ></i>
-                                    </div>
-                </li>
-                <li>
-                                <div class="rowPlanner" index-Time="14" style="background-color:#92967d;">
-                                    <div class="col-md-4">
-                                        <span class="timeSpace">2:00 pm</span>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input id="input6" index-Time="6" type="text" class="dailyActivity">
-                                    </div>
-                                    <div class="col-md-2">
-                                    <i id="saveBtn" save-id="6" class="fas fa-save saveIcon" ></i>                                    </i>
-                                        </div>
-                </li>
-                <li>
-                                    <div class="rowPlanner" index-Time="15" style="background-color:#92967d;">
-                                        <div class="col-md-4">
-                                            <span class="timeSpace">3:00 pm</span>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input id="input7" index-Time="7" type="text" class="dailyActivity">
-                                        </div>
-                                        <div class="col-md-2" .flex-row-reverse>
-                                        <i id="saveBtn" save-id="7" class="fas fa-save saveIcon" >
-                                        </i></div>
-                </li>
-                <li>
-                                        <div class="rowPlanner" index-Time="16" style="background-color:#92967d;">
-                                            <div class="col-md-4">
-                                                <span class="timeSpace">4:00 pm</span>
-                                            </div>
-                                            
-                                            <div class="col-md-12">
-                                                <input id="input8" index-Time="8" type="text" class="dailyActivity">
-                                            </div>
-                                            
-                                            <div class="col-md-2">
-                                            <i id="saveBtn" save-id="8" class="fas fa-save saveIcon"></i>
-                                                </div>
-                </li>
-                <li>
-                                            <div class="rowPlanner" index-Time="17" style="background-color:#92967d;">
-                                                <div class="col-md-4">
-                                                    <span class="timeSpace">5:00 pm</span>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <input id="input9" index-Time="9" type="text" class="dailyActivity">
-                                                </div>
-                                                <div class="col-md-2">
-                                                <i id="saveBtn" save-id="9" class="fas fa-save saveIcon"></i>
-                                                    </div>
-                </li>
-
-
-                                            </div>
-                                        </ul>
-                                            <script
-                                                src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-                                            <script
-                                                src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-
-                                            <script src="assets/script.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
 </html>

@@ -23,26 +23,6 @@ body {
     text-align: center;
     align-items: center;
    }
-  /* textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
-  }
-  
-  .jumbotron {
-    text-align: center;
-    background-color: transparent;
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-  } */
-  
-  /* .description{
-    white-space: pre-wrap;
-  } */
 
   .container {
       margin-top: 25px;
@@ -53,7 +33,7 @@ body {
   }
 
   
-  .rowPlanner {
+  textarea {
       height: 100%;
       width: 100%;
       margin-bottom: 5px;
@@ -61,14 +41,13 @@ body {
       font-size: medium;
       border-radius: 15px;
   }
-  .timeSpace {
-    text-align: center;
-    border-radius: 15px;    
-    background-color:#c8c6a7;
-    width: 100%;
-    display: inline-block;
-    font-size: large;
-    height: 100%;
+  #hourBox {
+    text-align: center;   
+    color: #eff3f3;
+    border-radius: 25px;
+    background-color: rgb(14, 13, 13);
+    align-items: center;
+    
 
   }
 
@@ -89,10 +68,11 @@ body {
       border-radius: 10px;
       }
 
-  .row {
+   .row {
     white-space: pre-wrap;
     height: 100%;
-    border-top: 1px solid white;;
+    border-top: 1px solid white;
+    padding: 10px;
   }
   
   .hour {
@@ -100,25 +80,20 @@ body {
     color: #000000;
     border-top: 1px dashed #000000;
   }
-  ul {
-      display:list-item;
-      overflow: auto;
-      list-style: none;
-  }
   
   .past {
     background-color:  #9d9e9e;
-    color: white;
+    color:black;
   }
   
   .present {
     background-color: #f5c0c0;
-    color: white;
+    color: black;
   }
   
   .future {
     background-color: #57b3b3;
-    color: white;
+    color: black;
   }
   
   #saveBtn {
