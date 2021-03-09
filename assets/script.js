@@ -45,6 +45,6 @@ function timeColor (){
     {if(future>currentDay){document.getElementsByClassName("hourBox").style.backgroundColor="green";
     if(past<currentDay){document.getElementsByClassName("hourBox").style.backgroundColor="gray";
 }else{document.getElementsByClassName("hourBox").style.backgroundColor="red";
-}return currentDay.getTime()<=future.getTime();}}
+}return currentDay.getTime()<=future.getTime();}}}
 
 
