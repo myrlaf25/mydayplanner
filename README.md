@@ -10,7 +10,7 @@ I must mention that in addition to HTML, CSS and Javascript, I am also utilizing
 
 The current day will be displayed a the top of the planner. When I scroll down, I will be able to see the timeblocks with the business hours. The timeblocks are color coded to represent either past(light gray), present(red), or future (green). 
 
-assets\mydayplanner.png
+<img src="assets\mydayplanner.png">
 
 
 I also had to save the user input in the daily activity container to localStorage.
