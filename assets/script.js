@@ -42,7 +42,8 @@ function timeColor (){
     var future=newTime(hour[i++]);
     var past =oldTime(hour[i--]);
     for (let i=0; i<hour.length; i++)
-    {if(future>currentDay){document.getElementsByClassName("hourBox").style.backgroundColor="gray";
+    {if(future>currentDay){document.getElementsByClassName("hourBox").style.backgroundColor="green";
+    if(past<currentDay){document.getElementsByClassName("hourBox").style.backgroundColor="gray";
 }else{document.getElementsByClassName("hourBox").style.backgroundColor="red";
 }return currentDay.getTime()<=future.getTime();}}
 
